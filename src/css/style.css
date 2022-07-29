@@ -17,9 +17,9 @@ body {
   margin-bottom: 30px;
 }
 
-.pokebola{
-    width: 35px;
-    height: 35px;
+.pokebola {
+  width: 35px;
+  height: 35px;
 }
 
 .cabecalho img {
@@ -32,7 +32,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 80px;
+  margin: 60px 0;
 }
 
 ul {
