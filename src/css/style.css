@@ -10,9 +10,16 @@ body {
 }
 .cabecalho {
   display: flex;
-  height: 40px;
+  gap: 15px;
   justify-content: center;
-  margin: 50px 0 60px 0;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.pokebola{
+    width: 35px;
+    height: 35px;
 }
 
 .cabecalho img {
@@ -71,57 +78,56 @@ ul {
   z-index: 1;
 }
 .fundo-1 {
-    background-image: url(../images/fundo-card-1.jpg);
+  background-image: url(../images/fundo-card-1.jpg);
 }
 .fundo-2 {
-    background-image: url(../images/fundo-card-2.jpg);
+  background-image: url(../images/fundo-card-2.jpg);
 }
 .fundo-3 {
-    background-image: url(../images/fundo-card-3.jpg);
+  background-image: url(../images/fundo-card-3.jpg);
 }
 .cartao .informacoes {
-    background-color: rgba(179, 177, 185, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: rgba(179, 177, 185, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .cartao .informacoes .nome {
-    color: #fff;
-    font-size: 22px;
+  color: #fff;
+  font-size: 22px;
 }
 .cartao .informacoes .vida {
-    background-color: #333;
-    color: #f1ecff;
-    padding: 6px 10px;
-    border-radius: 20px;
+  background-color: #333;
+  color: #f1ecff;
+  padding: 6px 10px;
+  border-radius: 20px;
 }
 .cartao.container-imagem {
-    text-align: center;
+  text-align: center;
 }
 .cartao .imagem-pokemon {
-    max-width: 100%;
-    max-height: 280px;
-    padding: 20px;
-
+  max-width: 100%;
+  max-height: 280px;
+  padding: 20px;
 }
 .cartao .descricao {
-    background-color: rgb(255, 255, 255, 0.8);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .cartao .descricao .titulo {
-    background-color: #333;
-    color: #f1ecff;
-    font-size: 15px;
-    padding: 12px;
+  background-color: #333;
+  color: #f1ecff;
+  font-size: 15px;
+  padding: 12px;
 }
 .cartao .descricao .texto {
-    font-size: 14px;
-    padding: 12px;
-    text-align: justify;
-    max-height: 115px;
-    overflow-y: auto;
+  font-size: 14px;
+  padding: 12px;
+  text-align: justify;
+  max-height: 115px;
+  overflow-y: auto;
 }
