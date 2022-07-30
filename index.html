@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/responsivo.css" />
     <link
       rel="shortcut icon"
       href="src/images/pokebola.png"
@@ -22,11 +22,11 @@
   </head>
   <body>
     <header class="cabecalho">
-      <img src="./src/images/pokebola.png" alt="pokebola" class="pokebola"/>
+      <img src="./src/images/pokebola.png" alt="pokebola" class="pokebola" />
       <h1 class="titulo">MapaDev Week</h1>
     </header>
     <main>
-      <button class="btn-seta btn-voltar">
+      <button class="btn-seta btn-voltar" onclick="Anterior()">
         <img
           src="./src/images/seta.png"
           alt="Anterior"
@@ -34,7 +34,7 @@
         />
       </button>
       <ul>
-        <li class="cartao fundo-1 selecionado">
+        <li class="cartao fundo-1 selecionado" id="index-1">
           <div class="informacoes">
             <h2 class="nome">Pikachu</h2>
             <p class="vida">HP 300</p>
@@ -47,20 +47,20 @@
             <p class="texto">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Cupiditate debitis consectetur recusandae animi, natus maiores
-              quasi delectus excepturi. Culpa sit ex a tenetur 
+              quasi delectus excepturi. Culpa sit ex a tenetur
             </p>
           </div>
         </li>
-        <li class="cartao fundo-2">
-          <div>
+        <li class="cartao fundo-2" id="index-2">
+          <div class="informacoes">
             <h2 class="nome">Charizard</h2>
-            <p>HP 800</p>
+            <p class="vida">HP 800</p>
           </div>
           <div class="container-imagem">
             <img src="./src/images/charizard.png" alt="Charizard" />
           </div>
           <div class="descricao">
-            <h3>Descrição</h3>
+            <h3 class="titulo">Descrição</h3>
             <p class="texto">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Assumenda iure autem aut, eos quasi quis rerum et nemo illum
@@ -69,16 +69,16 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-3">
-          <div>
+        <li class="cartao fundo-3" id="index-3">
+          <div class="informacoes">
             <h2 class="nome">Mewto</h2>
-            <p>HP 1200</p>
+            <p class="vida">HP 1200</p>
           </div>
           <div class="container-imagem">
             <img src="./src/images/mewtwo.png" alt="Mewto" />
           </div>
           <div class="descricao">
-            <h3>Descrição</h3>
+            <h3 class="titulo">Descrição</h3>
             <p class="texto">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Assumenda iure autem aut, eos quasi quis rerum et nemo illum
@@ -88,7 +88,7 @@
           </div>
         </li>
       </ul>
-      <button class="btn-seta">
+      <button class="btn-seta" onclick="Proximo()">
         <img src="./src/images/seta.png" alt="Proximo" />
       </button>
     </main>
